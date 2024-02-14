@@ -1,0 +1,10 @@
+---
+title: The Evolution of Molecular Gas Fraction Traced by the CO Tully-Fisher Relation
+tags: galaxy evolution, molecular gas
+---
+
+by Isbell, J. W., Xue, R., & Fu, H.
+
+[*The Astrophysical Journal Letters, Volume 869, Issue 2, article id. L37, 8 pp. (2018).*](https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..37I/abstract)
+
+Carbon monoxide (CO) observations show a luminosity-line width correlation that evolves with redshift. We present a method to use CO measurements alone to infer the molecular gas fraction (f mol) and constrain the CO-H2 conversion factor (α CO). We compile from the literature spatially integrated low-J CO observations of six galaxy populations, including a total of 449 galaxies between 0.01 ≤ z ≤ 3.26. The CO data of each population provide an estimate of the {α }CO}-normalized mean molecular gas fraction (f mol/α CO). The redshift evolution of the luminosity-line width correlation thus indicates an evolution of f mol/α CO. We use a Bayesian-based Monte Carlo Markov Chain sampler to derive the posterior probability distribution functions of f mol/α CO for these galaxy populations, accounting for random inclination angles and measurement errors in the likelihood function. We find that the molecular gas fraction evolves rapidly with redshift, {f}mol}\propto {(1+z)}β with β ≃ 2, for both normal star-forming and starburst galaxies. Furthermore, the evolution trend agrees well with that inferred from the Kennicutt-Schmidt relation and the star-forming main sequence. Finally, at z < 0.1 normal star-forming galaxies (SFGs) require a ∼5× larger α CO than starburst galaxies to match their molecular gas fractions, but at z > 1 both star-forming types exhibit sub-Galactic α CO values and normal SFGs appear more gas rich than starbursts. Future applications of this method include calibrating Tully-Fisher relations without inclination correction and inferring the evolution of the atomic gas fraction with H I observations.

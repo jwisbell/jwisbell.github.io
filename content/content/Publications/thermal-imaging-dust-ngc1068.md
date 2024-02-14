@@ -1,0 +1,12 @@
+---
+title: Thermal imaging of dust hiding the black hole in NGC 1068
+tags: agn, interferometry, matisse, ngc1068
+---
+
+[*Nature, Volume 602, Issue 7897, p.403-407*](https://ui.adsabs.harvard.edu/abs/2022Natur.602..403G/abstract)
+
+by Gámez Rosas, V., Isbell, J. W., Jaffe, W., Petrov, R. G., Leftley, J. H., Hofmann, K.-H., Millour, F., Burtscher, L., Meisenheimer, K., Meilland, A., Waters, L. B. F. M., Lopez, B., Lagarde, S., Weigelt, G., Berio, P., Allouche, F., Robbe-Dubois, S., Cruzalèbes, P., Bettonvil, F., Henning, T., Augereau, J.-C., Antonelli, P., Beckmann, U., van Boekel, R., Bendjoya, P., Danchi, W. C., Dominik, C., Drevon, J., Gallimore, J. F., Graser, U., Heininger, M., Hocdé, V., Hogerheijde, M., Hron, J., Impellizzeri, C. M. V., Klarmann, L., Kokoulina, E., Labadie, L., Lehmitz, M., Matter, A., Paladini, C., Pantin, E., Pott, J.-U., Schertl, D., Soulain, A., Stee, P., Tristram, K., Varga, J., Woillez, J., Wolf, S., Yoffe, G., & Zins, G.
+
+In the widely accepted 'unified model' solution of the classification puzzle of active galactic nuclei, the orientation of a dusty accretion torus around the central black hole dominates their appearance. In 'type-1' systems, the bright nucleus is visible at the centre of a face-on torus. In 'type-2' systems the thick, nearly edge-on torus hides the central engine. Later studies suggested evolutionary effects and added dusty clumps and polar winds but left the basic picture intact. However, recent high-resolution images of the archetypal type-2 galaxy NGC 1068, suggested a more radical revision. The images displayed a ring-like emission feature that was proposed to be hot dust surrounding the black hole at the radius where the radiation from the central engine evaporates the dust. That ring is too thin and too far tilted from edge-on to hide the central engine, and ad hoc foreground extinction is needed to explain the type-2 classification. These images quickly generated reinterpretations of the dichotomy between types 1 and 2. Here we present new multi-band mid-infrared images of NGC 1068 that detail the dust temperature distribution and reaffirm the original model. Combined with radio data, our maps locate the central engine that is below the previously reported ring and obscured by a thick, nearly edge-on disk, as predicted by the unified model. We also identify emission from polar flows and absorbing dust that is mineralogically distinct from that towards the Milky Way centre. 
+
+*Modified from Published Version*

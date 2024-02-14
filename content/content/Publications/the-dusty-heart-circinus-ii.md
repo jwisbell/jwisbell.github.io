@@ -1,0 +1,10 @@
+---
+title: The dusty heart of Circinus. II. Scrutinizing the LM-band dust morphology using MATISSE
+tags: agn, interferometry, matisse, circinus
+---
+
+by Isbell, J. W.; Pott, J. -U.; Meisenheimer, K.; Stalevski, M.; Tristram, K. R. W.; Leftley, J.; Asmus, D.; Weigelt, G.; Gámez Rosas, V.; Petrov, R.; Jaffe, W.; Hofmann, K. -H.; Henning, T.; Lopez, B. 
+
+[*Astronomy & Astrophysics, Volume 678, id.A136, 23 pp.*](https://ui.adsabs.harvard.edu/abs/2023A%26A...678A.136I/abstract)
+
+In this paper we present the first-ever L- and M-band interferometric observations of Circinus, building upon a recent N-band analysis. We used these observations to reconstruct images and fit Gaussian models to the L and M bands. Our findings reveal a thin edge-on disk whose width is marginally resolved and is the spectral continuation of the disk imaged in the N band to shorter wavelengths. Additionally, we find a point-like source in the L and M bands that, based on the LMN-band spectral energy distribution fit, corresponds to the N-band point source. We also demonstrate that there is no trace of direct sightlines to hot dust surfaces in the circumnuclear dust structure of Circinus. By assuming the dust is present, we find that obscuration of AV ≳ 250 mag is necessary to reproduce the measured fluxes. Hence, the imaged disk could play the role of the obscuring "torus" in the unified scheme of active galactic nuclei. Furthermore, we explored the parameter space of the disk + hyperbolic cone radiative transfer models and identify a simple modification at the base of the cone. Adding a cluster of clumps just above the disk and inside the base of the hyperbolic cone provides a much better match to the observed temperature distribution in the central aperture. This aligns well with the radiation-driven fountain models that have recently emerged. Only the unique combination of sensitivity and spatial resolution of the VLTI allows such models to be scrutinized and constrained in detail. We plan to test the applicability of this detailed dust structure to other MATISSE-observed active galactic nuclei in the future.
