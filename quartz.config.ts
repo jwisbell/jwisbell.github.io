@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Jacob Isbell",
+    pageTitle: "Jacob Isbell",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Roboto",//"Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
