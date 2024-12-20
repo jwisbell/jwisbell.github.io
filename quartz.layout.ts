@@ -4,7 +4,7 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: Component.Explorer(),
+  header: [Component.Explorer()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jwisbell/",
