@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#f9f9f9] text-black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neobrutalist Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-mono flex flex-col min-h-screen">
+    <!-- Layout Wrapper -->
+    <div class="flex flex-1">
+      <!-- Sidebar -->
+      <aside class="w-64 border-r-4 border-black p-6 hidden lg:block sticky top-0 h-screen bg-white">
+        <h1 class="text-3xl font-extrabold mb-10">jacob.is</h1>
+        <nav class="flex flex-col space-y-4 text-lg">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#projects" class="hover:underline">Projects</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="p-6 grid lg:grid-cols-2 gap-8 items-center min-h-[80vh] border-b-4 border-black">
+          <div>
+            <h2 class="text-5xl font-black mb-4 leading-tight">Welcome to the brutal web.</h2>
+            <p class="text-lg max-w-md mb-6">
+              I'm Jacob. I build efficient, no-fluff interfaces and tools. This is my playground for experimental ideas and clean design.
+            </p>
+            <a href="#projects" class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition">
+              See Projects
+            </a>
+          </div>
+          <div class="flex justify-center">
+            <img src="https://placekitten.com/400/400" alt="Headshot" class="w-64 h-64 border-4 border-black object-cover" />
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="p-6 border-b-4 border-black bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">About Me</h3>
+          <p class="max-w-xl">
+            I’m a developer focused on building bold, functional experiences. Currently obsessed with TUI/CLI tools, minimal backends, and baseball data.
+          </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="p-6 border-b-4 border-black bg-white">
+          <h3 class="text-2xl font-bold mb-4">Projects</h3>
+          <ul class="space-y-4">
+            <li class="border-2 border-black p-4 hover:bg-black hover:text-white transition">
+              🧰 <strong>Baseball TUI:</strong> Live MLB data in your terminal using Go.
+            </li>
+            <li class="border-2 border-black p-4 hover:bg-black hover:text-white transition">
+              🕸️ <strong>Static Site Generator:</strong> Quartz-based site builder with brutalist defaults.
+            </li>
+            <li class="border-2 border-black p-4 hover:bg-black hover:text-white transition">
+              🛠️ <strong>Dev Tools CLI:</strong> Minimal Go-based toolbelt for daily work.
+            </li>
+          </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="p-6 bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">Contact</h3>
+          <p>Email me at: <a href="mailto:jacob@example.com" class="underline">jacob@example.com</a></p>
+        </section>
+      </main>
+    </div>
+
+    <!-- Sticky Footer -->
+    <footer class="border-t-4 border-black bg-white text-center p-4 mt-auto sticky bottom-0 z-10">
+      <p class="text-sm">© 2025 Jacob Isbell — Brutally built.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en" class="bg-[#f9f9f9] text-black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Isbell - Astronomer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-mono flex flex-col min-h-screen">
+    <!-- Layout Wrapper -->
+    <div class="flex flex-1 leading-10">
+      <!-- Sidebar -->
+      <aside
+        class="w-64 border-r-4 border-black p-6 hidden lg:block sticky top-0 h-screen bg-white"
+      >
+        <h1 class="text-3xl font-extrabold mb-10">Jacob Isbell</h1>
+        <nav class="flex flex-col space-y-4 text-lg">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="research.html" class="hover:underline">Research</a>
+          <a href="projects.html" class="hover:underline">Programming</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1">
+        <!-- Hero Section -->
+        <section
+          class="p-6 grid lg:grid-cols-2 gap-8 items-center min-h-[80vh] border-b-4 border-black"
+        >
+          <div>
+            <h2 class="text-5xl font-black mb-4 leading-tight">
+              Jacob Isbell, Astronomer.
+            </h2>
+            <p class="text-lg max-w-md mb-6">
+              I’m a professional astrophysicist, primarily interested in galaxy
+              evolution and supermassive black holes. I also like to write
+              software.
+            </p>
+
+            <div class="flex flex-wrap gap-2 m-4">
+              <a
+                href="#projects"
+                class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+              >
+                Software Projects
+              </a>
+              <a
+                href="#publications"
+                class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+              >
+                Scientific Publications
+              </a>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="./public/headshot.jpg"
+              alt="Headshot"
+              class="w-64 h-64 border-4 border-black object-cover"
+            />
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="p-6 border-b-4 border-black bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">About Me</h3>
+          <p class="max-w-2xl">
+            I’m currently a Postdoctoral researcher at University of Arizona’s
+            Steward Observatory. I am primarily interested in galaxy evolution
+            and the mechanisms that drive it. Specifically, I work to understand
+            the connection between supermassive black holes and their host
+            galaxies. To do this I use interferometers such as the Large
+            Binocular Telescope Interferometer (LBTI) and VLTI/MATISSE to
+            observe the material which feeds the black hole and the dusty winds
+            which impact the host galaxy. I am also passionate about education,
+            outreach, and the development of software which can make topics more
+            fun and accessible.
+          </p>
+        </section>
+        <!-- Research Section -->
+        <section id="about" class="p-6 border-b-4 border-black bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">Research Overview</h3>
+          <p class="max-w-2xl m-4">
+            More details on my astronomy research can be found here:
+            <a
+              href="research"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap"
+            >
+              Research
+            </a>
+          </p>
+          <p class="max-w-2xl">
+            I completed my PhD at the Max Planck Institute for Astronomy,
+            working with VLTI-MATISSE. The main focus of my thesis was to
+            understand the dusty envelopes of active galactic nuclei (AGN). To
+            do this, we used mid-infrared interferometry to probe the dust at
+            extremely high resolution. Using MATISSE at the VLTI, which combines
+            4 telescopes, we imaged this circumnuclear dust for the first time,
+            giving an unprecedented glimpse into the “gas tank” which fuels the
+            AGN.
+          </p>
+
+          <p class="max-w-2xl">&nbsp;</p>
+          <p class="max-w-2xl">
+            I now work with the Large Binocular Telescope Interferometer (LBTI)
+            team at the University of Arizona to 1. develop and support new
+            observing modes and techniques, and 2. to understand AGN feedback on
+            their hosts using the high-sensitivity, high-resolution Fizeau
+            imaging mode of the LBTI.
+          </p>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="p-6 border-b-4 border-black bg-white">
+          <h3 class="text-2xl font-bold mb-4">Publications</h3>
+          <p class="max-w-2xl leading-10 m-4">
+            A complete and always up-to-date list can be found
+            <a
+              class="hover:text-white hover:bg-black border-2 p-1"
+              href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&author=Isbell,%20Jacob%20W.&db_key=AST"
+              >on ADS</a
+            >
+            and more information can be found here:
+            <a
+              href="research.html"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition"
+            >
+              Research
+            </a>
+          </p>
+
+          <p class="max-w-2xl">&nbsp;</p>
+          <h3 class="text-xl mb-2">Recent Highlights</h3>
+          <ul class="space-y-4">
+            <li class="border-2 border-black p-4 transition">
+              📝
+              <strong
+                >Direct imaging of active galactic nucleus outflows and their
+                origin with the 23 m Large Binocular Telescope</strong
+              ><br />
+              <em>Nature Astronomy</em>, 2025<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2025NatAs...9..417I/abstract"
+                class="underline"
+                >Read Online</a
+              ><br />
+              Press Releases:
+              <a
+                href="https://news.arizona.edu/news/u-astronomers-capture-unprecedented-view-supermassive-black-hole-action"
+                class="underline"
+                >University of Arizona</a
+              >,
+              <a
+                href="https://www.mpia.de/news/science/2025-01-lbti-isbell"
+                class="underline"
+                >Max Planck Institute for Astronomy</a
+              ><br />
+
+              Radio Interview:
+              <a
+                href="https://ackerleyadvertising.com/jump-in-tucson-2025-shows/"
+                class="underline"
+                >Listen Online</a
+              ><br />
+            </li>
+            <li class="border-2 border-black p-4 transition">
+              📝
+              <strong>The LBTI: pioneering the ELT era</strong><br />
+              <em>Proceedings of the SPIE</em>, 2024<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2024SPIE13095E..06I/abstract"
+                class="underline"
+                >Read Online</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="p-6 border-b-4 border-black bg-white">
+          <h3 class="text-2xl font-bold mb-4">Software Development</h3>
+          <p class="max-w-2xl m-4">
+            More projects and more information can be found here:
+            <a
+              href="projects.html"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap"
+            >
+              Programming Projects
+            </a>
+          </p>
+
+          <p class="max-w-2xl">&nbsp;</p>
+
+          <ul class="space-y-4">
+            <li class="border-2 border-black p-4">
+              🦎 <strong>LIZARD Pipeline:</strong> Data reduction and image
+              processing pipeline for LBTI Fizeau Imaging
+              <a
+                href="https://www.github.com/jwisbell/lbti_fizeau"
+                class="hover:text-white hover:bg-black border-2 p-1"
+              >
+                (Link)
+              </a>
+            </li>
+            <li class="border-2 border-black p-4">
+              🪴 <strong>Gardone:</strong> A digital garden and personal plant
+              database
+
+              <a
+                href="https://gardone.netlify.app"
+                class="hover:text-white hover:bg-black border-2 p-1"
+              >
+                (Link)
+              </a>
+            </li>
+            <li class="border-2 border-black p-4">
+              🛠️ <strong>MATISSE LM Data Reduction:</strong> Python scripts to
+              process MATISSE LM-band for faint sources
+
+              <a
+                href="https://github.com/jwisbell/matisse_lm_datareduction"
+                class="hover:text-white hover:bg-black border-2 p-1"
+              >
+                (Link)
+              </a>
+            </li>
+            <li class="border-2 border-black p-4">
+              🖼️ <strong>E-paper Image Frame:</strong> Raspberry Pi based photo
+              frame with wireless photo upload using a local web server
+              <a
+                href="https://github.com/jwisbell/epaper-imframe"
+                class="hover:text-white hover:bg-black border-2 p-1"
+              >
+                (Link)
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Outreach Section -->
+        <section id="outreach" class="p-6 border-b-4 border-black bg-white">
+          <h3 class="text-2xl font-bold mb-4">Outreach and Teaching</h3>
+          <p class="max-w-2xl m-4">
+            One of the best parts of astronomy is its ability to inspire
+            curiosity in people of all ages. I fundamentally believe in the
+            value of scientific communication, and I work to make science
+            accessible to all. To this end, I have been involved in a number of
+            outreach projects, public talks/presentations, and the CIRTL
+            teaching program.
+          </p>
+
+          <ul class="space-y-4 mt-2">
+            <li class="border-2 border-black p-4">
+              <strong>Gravbox:</strong> Developed at the University of Iowa,
+              <a
+                href="https://gravbox.sites.uiowa.edu/"
+                class="hover:text-white hover:bg-black border-2 p-1"
+                >Gravbox</a
+              >
+              is an interactive gravitational dynamics simulation that lets
+              people shape a universe with their own hands. I was fortunate
+              enough to
+              <a
+                class="hover:text-white hover:bg-black border-2 p-1"
+                href="https://ui.adsabs.harvard.edu/abs/2018AAS...23131606I/abstract"
+                >present this team effort at AAS 231</a
+              >.
+            </li>
+            <li class="border-2 border-black p-4">
+              <strong>Public Talks:</strong> links to recorded public outreach
+              talks can be found here:
+              <a
+                class="hover:text-white hover:bg-black border-2 p-1"
+                href="research.html#recordings"
+                >Talks</a
+              >
+            </li>
+            <li class="border-2 border-black p-4">
+              <strong>CIRTL Postdoctoral Fellowship:</strong> Evidence-based
+              teaching instruction and an intensive, short-term co-teaching
+              project with a faculty mentor (Dr. Ed Prather)
+            </li>
+          </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="p-6 bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">Contact</h3>
+          <p>You can find me on</p>
+
+          <a
+            href="https://www.github.com/jwisbell"
+            class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+          >
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-isbell-52732b20a/"
+            class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+          >
+            LinkedIn
+          </a>
+        </section>
+      </main>
+    </div>
+
+    <!-- Sticky Footer -->
+    <footer
+      class="border-t-4 border-black bg-white text-center p-4 mt-auto bottom-0 z-10"
+    >
+      <p class="text-sm">© 2025 Jacob Isbell</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en" class="bg-[#f9f9f9] text-black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-mono flex flex-col min-h-screen">
+    <!-- Layout Wrapper -->
+    <div class="flex flex-1">
+      <!-- Sidebar -->
+      <aside
+        class="w-64 border-r-4 border-black p-6 hidden lg:block sticky top-0 h-screen bg-white"
+      >
+        <h1 class="text-3xl font-extrabold mb-10">Jacob Isbell</h1>
+        <nav class="flex flex-col space-y-4 text-lg">
+          <a href="index.html" class="hover:underline">← Back to Home</a>
+          <a href="index.html#about" class="hover:underline">About</a>
+          <a href="research.html" class="hover:underline">Research</a>
+          <a href="projects.html" class="hover:underline">Programming</a>
+          <a href="index.html#contact" class="hover:underline">Contact</a>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1">
+        <section class="p-6 border-b-4 border-black min-h-[30vh] bg-white">
+          <h2 class="text-4xl font-black mb-2">Programming Projects</h2>
+          <p class="text-lg max-w-2xl mb-4">
+            A collection of my personal and professional programming projects.
+            They range from astronomical image processing pipelines to web
+            applications and coding challenges.
+          </p>
+          <div class="flex flex-wrap gap-2 m-4">
+            <a
+              href="#astronomy"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+            >
+              Scientific Programming
+            </a>
+            <a
+              href="#projects"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition text-nowrap m-1"
+            >
+              Hobby Projects
+            </a>
+          </div>
+        </section>
+
+        <section
+          id="astronomy"
+          class="p-6 border-b-4 border-black bg-[#f1f1f1]"
+        >
+          <h3 class="text-2xl font-bold mb-4">🛠️ Scientific Programming</h3>
+          <p class="max-w-2xl m-2">
+            Accompanying several written publications, I (or my collaborators)
+            have published software packages for data reduction. Most of my
+            tools involve <strong>image processing</strong> on large datasets,
+            totaling hundreds of thousands of images. These tools involve signal
+            processing, Fourier transforms, and feature detection.
+          </p>
+          <div class="space-y-6">
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">🦎 LIZARD Pipeline</h4>
+              <p class="mb-1">
+                Data reduction and image processing pipeline for LBTI Fizeau
+                Imaging. It processes observations consisting of ~100,000 images
+                by handling cropping, centering, good frame selection, and
+                calibration. It also includes various deconvolution algorithms
+                to recover high resolution features from within the science
+                images. LIZARD has been used in several published scientific
+                works.
+              </p>
+              <a
+                href="https://www.github.com/jwisbell/lbti_fizeau"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">
+                🛠️ MATISSE LM Data Reduction
+              </h4>
+              <p class="mb-1">
+                Python scripts to process MATISSE LM-band for faint sources.
+                Processing the interferograms, the pipeline extracts the
+                observables using longer wavelength selection criteria than the
+                default MATISSE pipeline. This is especially useful for "red"
+                objects like Active Galactic Nuclei. This was published as part
+                of my PhD thesis.
+              </p>
+              <a
+                href="https://github.com/jwisbell/matisse_lm_datareduction"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">🌀 Gravbox</h4>
+              <p class="mb-1">
+                Augmented Reality Gravitational Dynamics Sandbox - GravBox -
+                Version 1.0 (December 2017). Created at the University of Iowa
+                for education and outreach.
+              </p>
+              <ul class="p-2 m-2">
+                <li>
+                  - Written by Jacob Isbell, Sophie Deam, Jianbo Lu, and Tyler
+                  Stercula
+                </li>
+                <li>- Graphics made by Jeremy Swanson and Jacob Isbell</li>
+                <li>
+                  - Hardware by Mason Reed, Ross McCurty, Sadie Moore, and Wyatt
+                  Bettis
+                </li>
+                <li>- Supervised by Hai Fu</li>
+              </ul>
+              <a
+                href="https://gravbox.sites.uiowa.edu/"
+                class="underline transition"
+                >More Information</a
+              >
+              <a
+                href="https://github.com/jwisbell/gravity_sandbox"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">⭐ All Sky Camera</h4>
+              <p class="mb-1">
+                Basic python package for overplotting constellations on an
+                all-sky camera image, for making basic measurements, and for
+                making nightly videos. Briefly used at the University of Iowa
+                before a lightning strike.
+              </p>
+              <a
+                href="https://github.com/jwisbell/allsky_camera"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">
+                🤖 Faraday Rotation Convolutional Neural Network
+              </h4>
+              <p class="mb-1">
+                Scripts accompanying
+                <a
+                  href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.483..964B/abstract"
+                  class="underline transition"
+                  >Brown et al. (2019)</a
+                >
+                using convolutional neural networks to estimate Faraday rotation
+                in Square Kilometer Array observations.
+              </p>
+              <a
+                href="https://github.com/jwisbell/faraday_cnn"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <!-- Detailed List Section -->
+        <section id="projects" class="p-6 border-b-4 border-black bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-4">🛠️ Hobby Software Development</h3>
+          <p class="max-w-2xl m-2">
+            In addition to my research programming with Python, I enjoy
+            programming in Go and Rust. I occasionally also use
+            Javascript/React. Here are a few of the projects I’ve worked on to
+            learn the languages and to become a better programmer.
+          </p>
+
+          <div class="space-y-6">
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">🪴 Gardone</h4>
+              <p class="mb-1">
+                Gardone is a fullstack web application that helps gardeners use
+                a digital garden to keep track of their plants and when to water
+                them. The backend REST API is fully written in Go using the Gin
+                package. It interfaces with a PostgreSQL database and a React
+                frontend. It was a very fun project to develop because it tied
+                together so many concepts that I had learned in piecemeal over
+                the years.
+              </p>
+              <a href="https://gardone.netlify.app" class="underline transition"
+                >View Project</a
+              >
+            </article>
+            <!-- TODO
+<article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">
+                ⚾ Terminal Baseball Tracker
+              </h4>
+              <p class="mb-1">
+                A live-updating Go TUI using MLB’s API to show diamond
+                positions, scores, and stats—all in your terminal.
+              </p>
+              <a
+                href="https://github.com/yourusername/baseball-tui"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+-->
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">🖼️ E-Paper Image Frame</h4>
+              <p class="mb-1">
+                Using a Waveshare color e-ink display and a Raspberry Pi 5, I
+                made a digital photo frame as a gift. When it is unplugged, the
+                image remains for months! To update the image, the device must
+                be powered using a USB-C port. At startup, a FastAPI local web
+                server is started which serves a web page.for image upload.
+              </p>
+              <a
+                href="https://github.com/jwisbell/epaper-imframe"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+            <article
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <h4 class="text-xl font-bold mb-1">🎄 Advent of Code</h4>
+              <p class="mb-1">
+                For the past few years, I have enjoyed working on Advent of Code
+                throughout December. I use it as an opportunity to learn the
+                language, so implementations are often more experimental than
+                optimal. AoC also helps keep computer science concepts (like
+                DSA) fresh! I have used the following languages:
+              </p>
+              <ul class="p-2 m-2">
+                <li>- R in 2021</li>
+                <li>- Rust in 2022</li>
+                <li>- Rust in 2023</li>
+                <li>- Go in 2024</li>
+              </ul>
+
+              <a
+                href="https://github.com/jwisbell/adventOfCode"
+                class="underline transition"
+                >View on GitHub</a
+              >
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Sticky Footer -->
+    <footer
+      class="border-t-4 border-black bg-white text-center p-4 mt-auto bottom-0 z-10"
+    >
+      <p class="text-sm">© 2025 Jacob Isbell</p>
+    </footer>
+  </body>
+</html>

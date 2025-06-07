@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en" class="bg-[#f9f9f9] text-black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-mono flex flex-col min-h-screen">
+    <!-- Layout Wrapper -->
+    <div class="flex flex-1">
+      <!-- Sidebar -->
+      <aside
+        class="w-64 border-r-4 border-black p-6 hidden lg:block sticky top-0 h-screen bg-white"
+      >
+        <h1 class="text-3xl font-extrabold mb-10">Jacob Isbell</h1>
+        <nav class="flex flex-col space-y-4 text-lg">
+          <a href="index.html" class="hover:underline">← Back to Home</a>
+          <a href="index.html#about" class="hover:underline">About</a>
+          <a href="research.html" class="hover:underline">Research</a>
+          <a href="projects.html" class="hover:underline">Programming</a>
+          <a href="index.html#contact" class="hover:underline">Contact</a>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1">
+        <section class="p-6 border-b-4 border-black min-h-[30vh] bg-white">
+          <h2 class="text-4xl font-black mb-2">
+            Research, Publications, and Presentations
+          </h2>
+          <p class="text-lg max-w-2xl mb-4">
+            A deeper look at my research on active galactic nuclei, including a
+            publication list and recorded talks.
+          </p>
+
+          <div class="flex flex-wrap gap-2 m-4">
+            <a
+              href="#overview"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition m-1"
+            >
+              Research Overview
+            </a>
+            <a
+              href="#publications"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition m-1"
+            >
+              Publications
+            </a>
+            <a
+              href="#recordings"
+              class="border-4 border-black px-4 py-2 font-bold text-black hover:bg-black hover:text-white transition m-1"
+            >
+              Recorded Talks
+            </a>
+          </div>
+        </section>
+
+        <section id="overview" class="p-6 border-b-4 border-black bg-[#f1f1f1]">
+          <h3 class="text-2xl font-bold mb-2">Research Overview</h3>
+          <p class="max-w-2xl">
+            I completed my PhD at the Max Planck Institute for Astronomy,
+            working with VLTI-MATISSE. The main focus of my thesis was to
+            understand the dusty envelopes of active galactic nuclei (AGN). To
+            do this, we used mid-infrared interferometry to probe the dust at
+            extremely high resolution. Using MATISSE at the VLTI, which combines
+            4 telescopes, we imaged this circumnuclear dust for the first time,
+            giving an unprecedented glimpse into the “gas tank” which fuels the
+            AGN.
+          </p>
+
+          <p class="max-w-2xl">&nbsp;</p>
+          <p class="max-w-2xl">
+            I now work with the Large Binocular Telescope Interferometer (LBTI)
+            team at the University of Arizona to
+          </p>
+          <p class="max-w-2xl ms-4">
+            1. develop and support new observing modes and techniques, and
+          </p>
+          <p class="max-w-2xl ms-4">
+            2. to understand AGN feedback on their hosts using the
+            high-sensitivity, high-resolution Fizeau imaging mode of the LBTI.
+          </p>
+
+          <p class="max-w-2xl ms-4">&nbsp;</p>
+          <section
+            id="about"
+            class="p-6 border-s-4 border-black bg-[#f1f1f1] my-2"
+          >
+            <h3 class="text-xl mb-2">Active Galactic Nuclei</h3>
+            <p class="max-w-2xl">
+              Active Galactic Nuclei (AGN) are thought to play a major role in
+              regulating star formation in their host galaxies, turning young,
+              blue galaxies with many young stars into red and dead galaxies
+              with primarily old stars and little new star formation. How
+              exactly these powerful “engines” at the centers of galaxies
+              regulate global star formation is not well understood. Moreover,
+              while every galaxy has a supermassive black hole (SMBH) at the
+              center, not every galaxy has an AGN. What exactly triggers an
+              active phase and fuels the AGN? Through studying the dusty regions
+              around AGN, we can better understand how material accretes onto
+              the SMBH to cause an active phase.
+            </p>
+            <p class="max-w-2xl">&nbsp;</p>
+          </section>
+          <section
+            id="about"
+            class="p-6 border-l-4 border-black bg-[#f1f1f1] my-2"
+          >
+            <h3 class="text-xl mb-2">Interferometry</h3>
+            <p class="max-w-2xl">
+              Even the nearest AGN are appear so small on the sky that
+              traditional telescopes cannot resolve their details. By combining
+              the light from several telescopes, we obtain very high resolution
+              measurements of the material immediately surrounding the AGN. I
+              work to develop new and better ways to turn these measurements
+              into images and to create general data reduction tools for other
+              science cases. Situated at the interface between instrumentation
+              and astrophysics, I get to experiment with new observing setups
+              and science cases.
+            </p>
+          </section>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="p-6 bg-white border-b-4 border-black">
+          <h3 class="text-2xl font-bold mb-4">📚 First-Author Publications</h3>
+
+          <p class="max-w-2xl">
+            A complete and always up-to-date list can be found
+            <a
+              class="hover:text-white hover:bg-black border-2 p-1"
+              href="talks.html"
+              >on ADS</a
+            >
+          </p>
+          <p class="max-w-2xl">&nbsp;</p>
+          <ul class="space-y-4">
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong
+                >Direct imaging of active galactic nucleus outflows and their
+                origin with the 23 m Large Binocular Telescope</strong
+              ><br />
+              <em>Nature Astronomy</em>, 2025<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2025NatAs...9..417I/abstract"
+                class="underline transition"
+                >Read Online</a
+              ><br />
+              Press Releases:
+              <a
+                href="https://news.arizona.edu/news/u-astronomers-capture-unprecedented-view-supermassive-black-hole-action"
+                class="underline transition"
+                >University of Arizona</a
+              >,
+              <a
+                href="https://www.mpia.de/news/science/2025-01-lbti-isbell"
+                class="underline transition"
+                >Max Planck Institute for Astronomy</a
+              ><br />
+
+              Radio Interview:
+              <a
+                href="https://ackerleyadvertising.com/jump-in-tucson-2025-shows/"
+                class="underline transition"
+                >Listen Online</a
+              ><br />
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong>The LBTI: pioneering the ELT era</strong><br />
+              <em>Proceedings of the SPIE</em>, 2024<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2024SPIE13095E..06I/abstract"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong
+                >The dusty heart of Circinus. II. Scrutinizing the LM-band dust
+                morphology using MATISSE</strong
+              ><br />
+              <em>Astronomy and Astrophysics</em>, 2023<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2023A%26A...678A.136I/abstract"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong
+                >The Dusty Hearts of AGN: Understanding the Central Parsec
+                Through Imaging</strong
+              ><br />
+              <em>PhD Thesis, Universität Heidelberg</em>, 2022<br />
+              <a
+                href="https://archiv.ub.uni-heidelberg.de/volltextserver/32384/1/phd_thesis_isbell_final.pdf"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong
+                >The dusty heart of Circinus. I. Imaging the circumnuclear dust
+                in N-band</strong
+              ><br />
+              <em>Astronomy and Astrophysics</em>, 2022<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2022A%26A...663A..35I/abstract"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong>
+                Subarcsecond Mid-infrared View of Local Active Galactic Nuclei.
+                IV. The L- and M-band Imaging Atlas </strong
+              ><br />
+              <em>The Astrophysical Journal</em>, 2021<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2021ApJ...910..104I/abstract"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong>
+                The Evolution of Molecular Gas Fraction Traced by the CO
+                Tully-Fisher Relation </strong
+              ><br />
+              <em>The Astrophysical Journal Letters</em>, 2018<br />
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..37I/abstract"
+                class="underline transition"
+                >Read Online</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="recordings" class="p-6 bg-white border-b-4 border-black">
+          <h2 class="text-2xl font-bold mb-4">🎥 Recorded Talks</h2>
+
+          <h3 class="text-xl font-bold mb-4">Public Talks/Outreach</h3>
+          <ul class="space-y-4">
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong
+                >Science with Extremely Large Telescopes: Direct Imaging of
+                Active Galactic Nuclei</strong
+              ><br />
+              <em>Steward Observatory Public Lecture Series</em>, Spring 2025<br />
+              <a
+                href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c065e00-a3f3-48fb-86df-b2b200ff7213"
+                class="underline transition"
+                >Watch Online</a
+              ><br />
+            </li>
+          </ul>
+          <h3 class="text-xl font-bold mb-4 mt-4">Scientific Talks</h3>
+          <ul class="space-y-4">
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong>
+                Jacob Isbell - Imaging the Circumnuclear Dust in the Circinus
+                Galaxy with MATISSE </strong
+              ><br />
+              <em>Sharpest Eyes on the Sky Conference</em>, 2022<br />
+              <a
+                href="https://www.youtube.com/watch?v=wi5q0Tl0ar4"
+                class="underline transition"
+                >Watch Online</a
+              ><br />
+            </li>
+            <li
+              class="border-2 border-black p-4 hover:bg-black hover:text-white transition"
+            >
+              <strong>
+                A Subarcsecond L- and M-band Imaging Atlas of Local Active
+                Galactic Nuclei | Jacob Isbell </strong
+              ><br />
+              <em>IR2020 Conference</em><br />
+              <a
+                href="https://www.youtube.com/watch?v=ChjocoKKDCc"
+                class="underline transition"
+                >Watch Online</a
+              ><br />
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <!-- Sticky Footer -->
+    <footer
+      class="border-t-4 border-black bg-white text-center p-4 mt-auto bottom-0 z-10"
+    >
+      <p class="text-sm">© 2025 Jacob Isbell</p>
+    </footer>
+  </body>
+</html>
